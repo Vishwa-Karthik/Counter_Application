@@ -9,3 +9,13 @@
 ```bash
 pip3 install flet
 ```
+
+## Run on Native OS
+```bash
+python3 main.py
+```
+
+## Run on WEB
+```bash
+flet.app(target=main, view=flet.WEB_BROWSER)
+```
